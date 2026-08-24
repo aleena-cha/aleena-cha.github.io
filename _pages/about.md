@@ -1,7 +1,4 @@
----
-title: "ALEENA CHAIWONG"
 
----
 
 Welcome to my personal website! 
 
