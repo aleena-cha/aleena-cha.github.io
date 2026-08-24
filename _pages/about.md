@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "ALEENA CHAIWONG"
 author_profile: true
 redirect_from: 
