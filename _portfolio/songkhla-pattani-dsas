@@ -1,1 +1,23 @@
+---
+title: "songkhla-pattani-dsas"
+excerpt: "An interactive Python Streamlit WebGIS dashboard that extracts multi-year Landsat shorelines (MNDWI + K-Means) and
+  │ computes DSAS coastal erosion/accretion rates (SCE, NSM, EPR, LRR) for the Songkhla–Pattani coast.<br/><img src='/images/adsas.png'>"
+codeurl: 'https://github.com/aleena-cha/aleena-cha.github.io/blob/master/_layouts/dsas/app.py'
+songkhla-pattani-dsas: https://songkhla-pattani-dsas.streamlit.app/
+collection: portfolio
+---
 
+# Songkhla–Pattani Coastal Shoreline Analysis (DSAS WebGIS)
+excerpt: "<br/><img src='/images/adsas1.png'>"
+excerpt: "<br/><img src='/images/adsas2.png'>"
+An interactive **Streamlit WebGIS** application for analyzing coastal erosion and accretion along the **Songkhla–Pattani coastline** and **Laem Tachi Spit** using multi-year Landsat satellite imagery (1984–2026).
+
+🚀 **[Launch Live App](https://songkhla-pattani-dsas.streamlit.app/)** | 💻 **[View Source Code (`app.py`)](https://github.com/aleena-cha/aleena-cha.github.io/blob/master/_layouts/dsas/app.py)**
+
+---
+
+### Key Capabilities
+* **Automated Shoreline Extraction:** Extracts annual shorelines using **MNDWI** and **K-Means Iso Cluster** classification.
+* **DSAS Metric Computation:** Generates an onshore baseline from the earliest selected year and casts perpendicular transects to compute **SCE, NSM, EPR, and LRR**.
+* **Interactive Exploration:** Allows users to customize analysis parameters and inspect results directly on an interactive **Folium** satellite map.
+* **Publication-Ready Exports:** Export **300 DPI maps**, profile graphs, **CSV** tables, and **GeoJSON** layers for further GIS analysis.
