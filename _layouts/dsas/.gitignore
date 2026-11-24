@@ -1,0 +1,14 @@
+# Virtual environments & Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Streamlit secrets (NEVER commit API keys or tokens)
+.streamlit/secrets.toml
+
+# Large local binaries & unrelated files
+*.exe
+*.zip
+*.pdf
