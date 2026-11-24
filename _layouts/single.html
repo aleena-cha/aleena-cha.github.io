@@ -72,6 +72,34 @@ layout: default
         {% elsif page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% endif %}
+        {% if page.citation or page.paperurl or page.slidesurl or page.bibtexurl or page.codeurl %}
+          <p style="font-size: smaller">
+            {% if page.citation %}
+              Recommended citation: {{ page.citation }}
+              {% if page.paperurl or page.slidesurl or page.bibtexurl or page.codeurl %}<br />{% endif %}
+            {% endif %}
+
+            {% assign links = "" | split: "" %}
+            {% if page.paperurl %}
+              {% capture link_html %}<a href="{{ page.paperurl }}">Download Paper</a>{% endcapture %}
+              {% assign links = links | push: link_html %}
+            {% endif %}
+            {% if page.slidesurl %}
+              {% capture link_html %}<a href="{{ page.slidesurl }}">Download Slides</a>{% endcapture %}
+              {% assign links = links | push: link_html %}
+            {% endif %}
+            {% if page.bibtexurl %}
+              {% capture link_html %}<a href="{{ page.bibtexurl }}">Download Bibtex</a>{% endcapture %}
+              {% assign links = links | push: link_html %}
+            {% endif %}
+            {% if page.codeurl %}
+              {% capture link_html %}<a href="{{ page.codeurl }}" download>Download Code</a>{% endcapture %}
+              {% assign links = links | push: link_html %}
+            {% endif %}
+
+            {{ links | join: " | " }}
+          </p>
+        {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
