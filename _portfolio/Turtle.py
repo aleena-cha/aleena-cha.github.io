@@ -1,6 +1,7 @@
 ---
 title: "Turtle"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/Turtle.png'>"
+excerpt: "This script uses Python's turtle and colorsys libraries to draw a geometric floral mandala with 30 concentric layers of 18 petals each on a pastel blue background (#d0d9ff). It gradually shrinks the petal size in each layer while shifting through a rainbow HSV-to-RGB color gradient from dark to bright.<br/><img src='/images/Turtle.png'>"
+codeurl: 'https://github.com/aleena-cha/aleena-cha.github.io/blob/master/files/Turtle.py'
 collection: portfolio
 ---
 
