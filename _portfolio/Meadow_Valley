@@ -2,7 +2,7 @@
 title: "Meadow Valleys"
 excerpt: "Meadow Valley is a 2D top-down farming and market simulation game built with Python and Pygame. It generates all of
   its visuals and sound effects procedurally in code.<br/><img src='/images/pygame.png'>"
-codeurl: 'https://github.com/aleena-cha/aleena-cha.github.io/blob/master/_layouts/dsas/main.py'
+codeurl: 'https://github.com/aleena-cha/aleena-cha.github.io/blob/master/_layouts/main.py'
 collection: portfolio
 ---
 Choose Your Farmer: Select Leo or Clara and start on Day 1 with 150G, three basic tools (Hoe, Watering Can, Scythe), and starter seeds.
