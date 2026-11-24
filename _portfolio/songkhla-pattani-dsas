@@ -10,18 +10,16 @@ collection: portfolio
 # Songkhla–Pattani Coastal Shoreline Analysis (DSAS WebGIS)
 excerpt: "<br/><img src='/images/adsas1.png'>"
 excerpt: "<br/><img src='/images/adsas2.png'>"
-An interactive Streamlit WebGIS application for analyzing coastal erosion and accretion along the Songkhla–Pattani coastline and Laem Tachi Spit using multi-year Landsat satellite imagery (1984–2026).
+An interactive Streamlit WebGIS application for analyzing coastal erosion and accretion along the Songkhla–Pattani coastline and Laem Tachi Spit using multi-year Landsat satellite imagery (1984–2026).<br>
 
-🚀 [Launch Live App](https://songkhla-pattani-dsas.streamlit.app/) | 💻 [View Source Code (`app.py`)](https://github.com/aleena-cha/aleena-cha.github.io/blob/master/_layouts/dsas/app.py)**
+<b>🚀 [Launch Live App](https://songkhla-pattani-dsas.streamlit.app/)</b> |<b> 💻 [View Source Code (`app.py`)](https://github.com/aleena-cha/aleena-cha.github.io/blob/master/_layouts/dsas/app.py)</br><br>
 
 ---
 
-### Key Capabilities
-Automated Shoreline Extraction: Extracts annual shorelines using MNDWI and K-Means Iso Cluster classification.
-DSAS Metric Computation: Generates an onshore baseline from the earliest selected year and casts perpendicular transects to compute SCE, NSM, EPR, and LRR.
-Interactive Exploration: Allows users to customize analysis parameters and inspect results directly on an interactive Folium satellite map.
+<b>### Key Capabilities</b><br>
+Automated Shoreline Extraction: Extracts annual shorelines using MNDWI and K-Means Iso Cluster classification.<br>
+DSAS Metric Computation: Generates an onshore baseline from the earliest selected year and casts perpendicular transects to compute SCE, NSM, EPR, and LRR.<br>
+Interactive Exploration: Allows users to customize analysis parameters and inspect results directly on an interactive Folium satellite map.<br>
 Publication-Ready Exports: Export 300 DPI maps, profile graphs, CSV tables, and GeoJSON layers for further GIS analysis.<br>  
 
-
-<b>https://songkhla-pattani-dsas.streamlit.app/</b><br>  
 
