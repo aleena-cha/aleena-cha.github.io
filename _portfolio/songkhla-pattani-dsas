@@ -20,6 +20,8 @@ An interactive Streamlit WebGIS application for analyzing coastal erosion and ac
 Automated Shoreline Extraction: Extracts annual shorelines using MNDWI and K-Means Iso Cluster classification.
 DSAS Metric Computation: Generates an onshore baseline from the earliest selected year and casts perpendicular transects to compute SCE, NSM, EPR, and LRR.
 Interactive Exploration: Allows users to customize analysis parameters and inspect results directly on an interactive Folium satellite map.
-Publication-Ready Exports: Export 300 DPI maps, profile graphs, CSV tables, and GeoJSON layers for further GIS analysis.
+Publication-Ready Exports: Export 300 DPI maps, profile graphs, CSV tables, and GeoJSON layers for further GIS analysis.<br>  
 
-__https://songkhla-pattani-dsas.streamlit.app/__
+
+<b>https://songkhla-pattani-dsas.streamlit.app/</b><br>  
+
