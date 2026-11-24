@@ -1,0 +1,219 @@
+[
+  {
+    "DateTime": "2026-11-23T16:00:00+07:00",
+    "EpochDateTime": 1795424400,
+    "WeatherIcon": 3,
+    "IconPhrase": "Partly sunny",
+    "HasPrecipitation": false,
+    "IsDaylight": true,
+    "Temperature": { "Value": 32.4, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 36.8, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 62,
+    "Wind": {
+      "Speed": { "Value": 14.8, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 205, "Localized": "SSW", "English": "SSW" }
+    },
+    "UVIndex": 6,
+    "UVIndexText": "High",
+    "PrecipitationProbability": 25
+  },
+  {
+    "DateTime": "2026-11-23T17:00:00+07:00",
+    "EpochDateTime": 1795428000,
+    "WeatherIcon": 4,
+    "IconPhrase": "Intermittent clouds",
+    "HasPrecipitation": false,
+    "IsDaylight": true,
+    "Temperature": { "Value": 31.2, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 35.1, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 65,
+    "Wind": {
+      "Speed": { "Value": 13.5, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 200, "Localized": "SSW", "English": "SSW" }
+    },
+    "UVIndex": 3,
+    "UVIndexText": "Moderate",
+    "PrecipitationProbability": 30
+  },
+  {
+    "DateTime": "2026-11-23T18:00:00+07:00",
+    "EpochDateTime": 1795431600,
+    "WeatherIcon": 35,
+    "IconPhrase": "Partly cloudy",
+    "HasPrecipitation": false,
+    "IsDaylight": false,
+    "Temperature": { "Value": 29.8, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 33.4, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 69,
+    "Wind": {
+      "Speed": { "Value": 12.0, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 195, "Localized": "SSW", "English": "SSW" }
+    },
+    "UVIndex": 0,
+    "UVIndexText": "Low",
+    "PrecipitationProbability": 35
+  },
+  {
+    "DateTime": "2026-11-23T19:00:00+07:00",
+    "EpochDateTime": 1795435200,
+    "WeatherIcon": 39,
+    "IconPhrase": "Partly cloudy w/ showers",
+    "HasPrecipitation": true,
+    "PrecipitationType": "Rain",
+    "IsDaylight": false,
+    "Temperature": { "Value": 28.6, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 32.1, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 74,
+    "Wind": {
+      "Speed": { "Value": 11.2, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 190, "Localized": "S", "English": "S" }
+    },
+    "UVIndex": 0,
+    "UVIndexText": "Low",
+    "PrecipitationProbability": 60
+  },
+  {
+    "DateTime": "2026-11-23T20:00:00+07:00",
+    "EpochDateTime": 1795438800,
+    "WeatherIcon": 38,
+    "IconPhrase": "Mostly cloudy",
+    "HasPrecipitation": false,
+    "IsDaylight": false,
+    "Temperature": { "Value": 27.9, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 31.0, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 76,
+    "Wind": {
+      "Speed": { "Value": 10.5, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 185, "Localized": "S", "English": "S" }
+    },
+    "UVIndex": 0,
+    "UVIndexText": "Low",
+    "PrecipitationProbability": 40
+  },
+  {
+    "DateTime": "2026-11-23T21:00:00+07:00",
+    "EpochDateTime": 1795442400,
+    "WeatherIcon": 35,
+    "IconPhrase": "Partly cloudy",
+    "HasPrecipitation": false,
+    "IsDaylight": false,
+    "Temperature": { "Value": 27.3, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 30.2, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 78,
+    "Wind": {
+      "Speed": { "Value": 9.8, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 180, "Localized": "S", "English": "S" }
+    },
+    "UVIndex": 0,
+    "UVIndexText": "Low",
+    "PrecipitationProbability": 25
+  },
+  {
+    "DateTime": "2026-11-23T22:00:00+07:00",
+    "EpochDateTime": 1795446000,
+    "WeatherIcon": 34,
+    "IconPhrase": "Mostly clear",
+    "HasPrecipitation": false,
+    "IsDaylight": false,
+    "Temperature": { "Value": 26.8, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 29.4, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 79,
+    "Wind": {
+      "Speed": { "Value": 9.1, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 175, "Localized": "S", "English": "S" }
+    },
+    "UVIndex": 0,
+    "UVIndexText": "Low",
+    "PrecipitationProbability": 15
+  },
+  {
+    "DateTime": "2026-11-23T23:00:00+07:00",
+    "EpochDateTime": 1795449600,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "HasPrecipitation": false,
+    "IsDaylight": false,
+    "Temperature": { "Value": 26.4, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 28.8, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 80,
+    "Wind": {
+      "Speed": { "Value": 8.6, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 170, "Localized": "S", "English": "S" }
+    },
+    "UVIndex": 0,
+    "UVIndexText": "Low",
+    "PrecipitationProbability": 10
+  },
+  {
+    "DateTime": "2026-11-24T00:00:00+07:00",
+    "EpochDateTime": 1795453200,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "HasPrecipitation": false,
+    "IsDaylight": false,
+    "Temperature": { "Value": 26.0, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 28.2, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 81,
+    "Wind": {
+      "Speed": { "Value": 8.2, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 168, "Localized": "SSE", "English": "SSE" }
+    },
+    "UVIndex": 0,
+    "UVIndexText": "Low",
+    "PrecipitationProbability": 10
+  },
+  {
+    "DateTime": "2026-11-24T01:00:00+07:00",
+    "EpochDateTime": 1795456800,
+    "WeatherIcon": 34,
+    "IconPhrase": "Mostly clear",
+    "HasPrecipitation": false,
+    "IsDaylight": false,
+    "Temperature": { "Value": 25.7, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 27.8, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 82,
+    "Wind": {
+      "Speed": { "Value": 7.9, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 165, "Localized": "SSE", "English": "SSE" }
+    },
+    "UVIndex": 0,
+    "UVIndexText": "Low",
+    "PrecipitationProbability": 10
+  },
+  {
+    "DateTime": "2026-11-24T02:00:00+07:00",
+    "EpochDateTime": 1795460400,
+    "WeatherIcon": 35,
+    "IconPhrase": "Partly cloudy",
+    "HasPrecipitation": false,
+    "IsDaylight": false,
+    "Temperature": { "Value": 25.4, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 27.4, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 83,
+    "Wind": {
+      "Speed": { "Value": 7.5, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 160, "Localized": "SSE", "English": "SSE" }
+    },
+    "UVIndex": 0,
+    "UVIndexText": "Low",
+    "PrecipitationProbability": 15
+  },
+  {
+    "DateTime": "2026-11-24T03:00:00+07:00",
+    "EpochDateTime": 1795464000,
+    "WeatherIcon": 35,
+    "IconPhrase": "Partly cloudy",
+    "HasPrecipitation": false,
+    "IsDaylight": false,
+    "Temperature": { "Value": 25.2, "Unit": "C", "UnitType": 17 },
+    "RealFeelTemperature": { "Value": 27.1, "Unit": "C", "UnitType": 17 },
+    "RelativeHumidity": 84,
+    "Wind": {
+      "Speed": { "Value": 7.2, "Unit": "km/h", "UnitType": 7 },
+      "Direction": { "Degrees": 155, "Localized": "SSE", "English": "SSE" }
+    },
+    "UVIndex": 0,
+    "UVIndexText": "Low",
+    "PrecipitationProbability": 15
+  }
+]

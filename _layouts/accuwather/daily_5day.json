@@ -1,0 +1,115 @@
+{
+  "Headline": {
+    "EffectiveDate": "2026-11-23T19:00:00+07:00",
+    "EffectiveEpochDate": 1795435200,
+    "Severity": 4,
+    "Text": "Warm and humid this week with isolated afternoon showers midweek",
+    "Category": "rain"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2026-11-23T07:00:00+07:00",
+      "EpochDate": 1795392000,
+      "Temperature": {
+        "Minimum": { "Value": 25.2, "Unit": "C", "UnitType": 17 },
+        "Maximum": { "Value": 33.4, "Unit": "C", "UnitType": 17 }
+      },
+      "Day": {
+        "Icon": 3,
+        "IconPhrase": "Partly sunny",
+        "HasPrecipitation": false,
+        "PrecipitationProbability": 25
+      },
+      "Night": {
+        "Icon": 39,
+        "IconPhrase": "Partly cloudy w/ showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationProbability": 60
+      }
+    },
+    {
+      "Date": "2026-11-24T07:00:00+07:00",
+      "EpochDate": 1795478400,
+      "Temperature": {
+        "Minimum": { "Value": 25.5, "Unit": "C", "UnitType": 17 },
+        "Maximum": { "Value": 34.0, "Unit": "C", "UnitType": 17 }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Mostly sunny",
+        "HasPrecipitation": false,
+        "PrecipitationProbability": 20
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Mostly clear",
+        "HasPrecipitation": false,
+        "PrecipitationProbability": 10
+      }
+    },
+    {
+      "Date": "2026-11-25T07:00:00+07:00",
+      "EpochDate": 1795564800,
+      "Temperature": {
+        "Minimum": { "Value": 24.8, "Unit": "C", "UnitType": 17 },
+        "Maximum": { "Value": 32.1, "Unit": "C", "UnitType": 17 }
+      },
+      "Day": {
+        "Icon": 14,
+        "IconPhrase": "Partly sunny w/ showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationProbability": 65
+      },
+      "Night": {
+        "Icon": 40,
+        "IconPhrase": "Mostly cloudy w/ showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationProbability": 55
+      }
+    },
+    {
+      "Date": "2026-11-26T07:00:00+07:00",
+      "EpochDate": 1795651200,
+      "Temperature": {
+        "Minimum": { "Value": 24.2, "Unit": "C", "UnitType": 17 },
+        "Maximum": { "Value": 31.0, "Unit": "C", "UnitType": 17 }
+      },
+      "Day": {
+        "Icon": 15,
+        "IconPhrase": "Thunderstorms",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationProbability": 80
+      },
+      "Night": {
+        "Icon": 38,
+        "IconPhrase": "Mostly cloudy",
+        "HasPrecipitation": false,
+        "PrecipitationProbability": 30
+      }
+    },
+    {
+      "Date": "2026-11-27T07:00:00+07:00",
+      "EpochDate": 1795737600,
+      "Temperature": {
+        "Minimum": { "Value": 24.9, "Unit": "C", "UnitType": 17 },
+        "Maximum": { "Value": 33.2, "Unit": "C", "UnitType": 17 }
+      },
+      "Day": {
+        "Icon": 1,
+        "IconPhrase": "Sunny",
+        "HasPrecipitation": false,
+        "PrecipitationProbability": 10
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false,
+        "PrecipitationProbability": 5
+      }
+    }
+  ]
+}

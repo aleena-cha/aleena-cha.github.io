@@ -1,0 +1,40 @@
+[
+  {
+    "Version": 1,
+    "Key": "318849",
+    "Type": "City",
+    "Rank": 10,
+    "LocalizedName": "Bangkok",
+    "EnglishName": "Bangkok",
+    "PrimaryPostalCode": "10200",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "TH",
+      "LocalizedName": "Thailand",
+      "EnglishName": "Thailand"
+    },
+    "AdministrativeArea": {
+      "ID": "10",
+      "LocalizedName": "Bangkok",
+      "EnglishName": "Bangkok",
+      "Level": 1,
+      "LocalizedType": "Province",
+      "EnglishType": "Province",
+      "CountryID": "TH"
+    },
+    "TimeZone": {
+      "Code": "ICT",
+      "Name": "Asia/Bangkok",
+      "GmtOffset": 7.0,
+      "IsDaylightSaving": false
+    },
+    "GeoPosition": {
+      "Latitude": 13.7563,
+      "Longitude": 100.5018
+    }
+  }
+]
