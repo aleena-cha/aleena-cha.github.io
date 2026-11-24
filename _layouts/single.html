@@ -47,57 +47,27 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% endif %}
         {% if page.citation or page.paperurl or page.slidesurl or page.bibtexurl or page.codeurl %}
           <p style="font-size: smaller">
             {% if page.citation %}
-              Recommended citation: {{ page.citation }}
-              {% if page.paperurl or page.slidesurl or page.bibtexurl or page.codeurl %}<br />{% endif %}
+              Recommended citation: {{ page.citation }}<br />
             {% endif %}
-
-            {% assign links = "" | split: "" %}
+            {% assign has_link = false %}
             {% if page.paperurl %}
-              {% capture link_html %}<a href="{{ page.paperurl }}">Download Paper</a>{% endcapture %}
-              {% assign links = links | push: link_html %}
+              <a href="{{ page.paperurl }}">Download Paper</a>
+              {% assign has_link = true %}
             {% endif %}
             {% if page.slidesurl %}
-              {% capture link_html %}<a href="{{ page.slidesurl }}">Download Slides</a>{% endcapture %}
-              {% assign links = links | push: link_html %}
+              {% if has_link %} | {% endif %}<a href="{{ page.slidesurl }}">Download Slides</a>
+              {% assign has_link = true %}
             {% endif %}
             {% if page.bibtexurl %}
-              {% capture link_html %}<a href="{{ page.bibtexurl }}">Download Bibtex</a>{% endcapture %}
-              {% assign links = links | push: link_html %}
+              {% if has_link %} | {% endif %}<a href="{{ page.bibtexurl }}">Download Bibtex</a>
+              {% assign has_link = true %}
             {% endif %}
             {% if page.codeurl %}
-              {% capture link_html %}<a href="{{ page.codeurl }}" download>Download Code</a>{% endcapture %}
-              {% assign links = links | push: link_html %}
+              {% if has_link %} | {% endif %}<a href="{{ page.codeurl }}" download>Download Code</a>
             {% endif %}
-
-            {{ links | join: " | " }}
           </p>
         {% endif %}
 
